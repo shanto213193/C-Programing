@@ -1,0 +1,27 @@
+#include<stdio.h>
+int main()
+{ 
+    system("color 02");
+    int x,y;
+    printf("Enter two Number : ");
+    scanf("%d %d",&x,&y);
+    if(x==y)
+    {
+
+        printf("\n%d is equal to %d\n",x,y);
+    }
+    else if(x>y)
+    {
+
+        printf("\n%d is greater than %d\n",x,y);
+    }
+    else
+    {
+        printf("\n%d is less than %d\n",x,y);
+    }
+
+
+    getch();
+    return 0;
+
+}
