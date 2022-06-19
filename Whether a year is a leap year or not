@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{ 
+    system("color 02");
+    int a;
+    printf("Enter any year : ");
+    scanf("%d",&a);
+
+    if(( a % 4 == 0 && a % 100 != 0 ) || ( a % 400 ==0 ))
+    {
+
+        printf("\nThe year is a leap year\n");
+    }
+    else
+    {
+        printf("\nThe year is not a leap year\n");
+    }
+
+    getch();
+    return 0;
+
+}
